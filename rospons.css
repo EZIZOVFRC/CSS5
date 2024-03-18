@@ -1,0 +1,415 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.giris{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-image: url(portfolio-4.jpg);
+    background-repeat: no-repeat,repeat;
+    background-size: 100%;
+    padding: 230px;
+    gap: 30px;
+    color: rgb(42, 42, 42);
+}
+.giris h1{
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.giris p{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.giris .find_button{
+    width: 200px;
+    height: 70px;
+    background-color: #1D809F;
+    color: white !important;
+    font-size: 25px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-top: 2%;
+    transition: 0.3s;
+
+}
+.giris .find_button:hover{
+    background-color: #125569;
+}
+.giris .find_button a{
+    color: white;
+}
+.giris .fa-bars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 3%;
+    right: 2%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(95, 95, 95, 0.647);
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.giris .fa-bars:hover{
+    background-color: rgb(95, 95, 95);
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    padding: 80px;
+}
+.div2 h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+}
+.div2 p{
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 1%;
+
+}
+.div2__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    height: 70px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 5%;
+    transition: 0.3s;
+}
+.div2__button:hover{
+    background-color: rgb(88, 88, 88);
+}
+
+.div2__button a{
+    color: white;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: rgb(29 128 159);
+}
+.div3__head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div3__head span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+}
+.div3__head h4{
+    color: white;
+    font-size: 50px;
+    padding-top: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div3__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+ .div3__icons .div3__icons__card i{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color:rgb(29 128 159) ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: 0.3s;
+}
+.div3__icons .div3__icons__card i:hover{
+    background-color: rgba(255, 255, 255, 0.492);
+    color: white;
+}
+.div3__icons__card{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div3__icons .div3__icons__card span{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5%;
+    color: white;
+}
+.div3__icons .div3__icons__card p{
+    color: #bbcfd4;
+}
+.div4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-image: url(portfolio-4.jpg);
+    background-repeat: no-repeat,repeat;
+    background-size: 100%;
+    padding: 250px;
+    gap: 30px;
+    color: rgb(42, 42, 42);
+}
+.div4 h2{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div4 .find_button{
+    width: 200px;
+    height: 70px;
+    background-color: #1D809F;
+    color: white !important;
+    font-size: 19px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-top: 2%;
+    transition: 0.3s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.div4 .find_button a{
+    color: white;
+}
+.div4 .find_button:hover{
+    background-color: #125569;
+}
+.div5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 110px;
+}
+.div5__head{
+    color: orange;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div5__head2{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div5__cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.div5__cards__card{
+    width: 50%;
+    position: relative;
+    transition: 0.3s;
+}
+.div5__cards__card:hover{
+    scale: 0.85;
+}
+.div5__cards__card__hvr{
+    position: absolute;
+    background-color: #1d809e00;
+    width: 100%;
+    height: 99%;
+    z-index: 2;
+    transition: 0.3s;
+}
+.div5__cards__card__hvr:hover{
+    background-color: #00b7efa4;
+}
+.div5__cards__card span{
+    position: absolute;
+    left: 15%;
+    bottom: 30%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 3;
+}
+.div5__cards__card p{
+    position: absolute;
+    left: 15%;
+    bottom: 22%;
+    color: white;
+    font-size: 20px;
+    z-index: 3;
+}
+.div5__cards__card img{
+    transition: 0.3s;
+    width: 100%;
+}
+.div6{
+    background-color: #1D809F;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.div6 h6{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.div6__butons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2%;
+}
+.div6__butons__1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.div6__butons__1:hover{
+    background-color: rgb(209, 209, 209);
+}
+.div6__butons__1 a{
+    color: black;
+}
+.div6__butons__2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.div6__butons__2:hover{
+    background-color: rgb(66, 66, 66);
+}
+.div6__butons__2 a{
+    color: rgb(255, 255, 255);
+}
+.div7{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+.div7__sosial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1%;
+}
+.div7__sosial i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #1D809F;
+    color: azure;
+    transition: 0.3s;
+}
+.div7__sosial i:hover{
+    color: #ffffff;
+    background-color: rgb(73, 87, 104);
+}
+.div7 p{
+    margin-top: 5%;
+    color: gray;
+}
+.fa-chevron-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(95, 95, 95, 0.647);
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.fa-chevron-up:hover{
+    background-color: rgb(95, 95, 95);
+}
+@media only screen and (max-width: 900px) {
+    .div3__icons {
+        flex-wrap: wrap;
+        width: auto;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .div5__cards__card {
+        width: 80%;
+    }
+    .div5 {
+        padding: 30px;
+    }
+    .div5__cards__card span {
+        padding-bottom: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .giris h1 {
+        font-size:50px ;
+    }
+    .giris p {
+        font-size:20px ;
+    }
+    .giris{
+        padding: 100px;
+        background-size: auto;
+    }
+    .div4{
+
+        padding: 100px;
+        background-size: auto;
+    }
+    .div3__icons__card{
+        width: 50%;
+    }
+  }
+  @media only screen and (max-width: 500px){
+    .div3__icons__card{
+        width: 100%;
+    }
+  }
